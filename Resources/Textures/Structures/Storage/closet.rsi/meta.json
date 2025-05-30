@@ -306,6 +306,15 @@
             "name": "eng_weld_door"
         },
         {
+            "name": "fakecake"
+        },
+        {
+            "name": "fakecake_open"
+        },
+        {
+            "name": "fakecake_door"
+        },
+        {
             "name": "fire"
         },
         {

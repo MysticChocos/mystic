@@ -219,3 +219,16 @@
         bluespaceEffectOnTeleportSource: true
         destroyAfterUses: 2
         destroyType: DeleteComponent
+
+# Tool closet
+- type: entity
+  id: ClosetFakeCake
+  name: fake party cake
+  parent: ClosetBase
+  description: I heard it was your birthday. I sent you a cake.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: fakecake
+    stateDoorOpen: fakecake_open
+    stateDoorClosed: fakecake_door
